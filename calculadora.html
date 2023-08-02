@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+<h1>Total</h1>
+
+
+    
+    <script>
+//let valor1 = parseInt(prompt ("Digite um valor: "));
+//let valor2 = parseInt(prompt ("Digite outro valor: "));
+let operadores = prompt("Digite a operação que deseja fazer: '+', '-', '*', '/', '**', ou 'S = sair' ");
+let valor1 = prompt ("Digite um valor: ");
+let valor2 = prompt ("Digite outro valor: ");
+
+let valor = document.querySelector('h1');
+ 
+ switch (operadores){
+   case "+":
+   total = parseInt(valor1) + parseInt(valor2);
+
+   break;
+
+   case "-":
+    total = parseInt(valor1) - parseInt(valor2);
+
+   break;
+
+   case "*":
+   total = parseInt(valor1) * parseInt(valor2);
+   break;
+
+   case "/":
+   total = parseInt(valor1) / parseInt(valor2);
+   break;
+
+   case "**":
+   total = parseInt(valor1) ** parseInt(valor2);
+   break;
+
+   case "s":
+   
+   break;
+
+  
+   default:
+   alert("Digite o a operação");
+   console.log("Digite o a operação");
+ }
+ console.log(total);
+ prompt(total);
+ 
+    </script>
+</body>
+</html>
+
+
+

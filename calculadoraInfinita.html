@@ -1,0 +1,38 @@
+<script>
+let ope;
+let acumulador = 0;
+
+    while (ope != "s"){
+
+        let numero = parseInt(prompt("Digite um numero"));
+         ope = prompt("Digite a operação: (+, -, *, /, **) ou  s para sair");
+            
+        if (ope == '+'){
+            
+            acumulador += numero;
+            alert("O resultado acumulado é:  "  + acumulador)
+            console.log(acumulador);
+        }
+        if (ope == '-'){
+            acumulador -= numero;
+            alert("O resultado acumulado é:  "  + acumulador)
+            console.log(acumulador);
+        }
+        if (ope == '/'){
+        
+            acumulador /= numero;
+            alert("O resultado acumulado é:  "  + acumulador)
+            console.log(acumulador);
+        }
+        if (ope == '*'){
+            acumulador *= numero;
+            alert("O resultado acumulado é:  "  + acumulador)
+            console.log(acumulador);
+        }
+        if (ope == '**'){
+            acumulador **= numero;
+            alert("O resultado acumulado é:  "  + acumulador)
+            console.log(acumulador);
+        }
+    }
+</script>
