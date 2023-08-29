@@ -1,1 +1,1 @@
-resultado
+nota
