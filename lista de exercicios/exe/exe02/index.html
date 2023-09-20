@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+<body>
+    
+<h1>Desadio 2</h1>
+<h2>Lista de Valores <span> </span></h2>
+
+<script>
+    let listaValores = Number(prompt('Digite um valor: '));
+    console.log(typeof listaValores);
+
+    if (listaValores >= 20){
+        document.querySelector('span').innerHTML = "Aprovado"
+        
+    }else {
+        document.querySelector('span').innerHTML = 'Negado';
+    }
+</script>
+
+</body>
+</html>

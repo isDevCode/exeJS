@@ -1,0 +1,20 @@
+let bookTittle = 'Atomic Habits';
+let bookAuthor = 'James Clear';
+let bookPages = 306;
+
+const book = {
+    bookTittle: 'Atomic Habits',
+    bookAuthor: 'James Clear',
+    bookPages: 306,
+    bookChapters: {
+        chapt1: 'Fundamentals',
+        chapt2: '1last law';
+
+    },
+    printBook: function() {
+        console.log('Printing...')
+    }
+
+}
+book.printBook();
+//console.log(book);
